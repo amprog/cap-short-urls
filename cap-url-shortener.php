@@ -238,7 +238,13 @@ function cap_get_shortlink_handler() {
 	global $post, $current_screen;
 
 	// Get the current admin screens post type
-	$post_type = $current_screen->post_type;
+	//TP-1392 - Check if variable exists
+	if($current_screen) {
+		$post_type = $current_screen->post_type;
+	}
+	else {
+	$post_type = null;
+	}
 
 	if ( 'cap_short_urls' == $post_type || is_singular('cap_short_urls') ) {
 		// If this is a short url then return the redirect target
