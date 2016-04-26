@@ -1,12 +1,13 @@
 <?php
 /*
-Plugin Name: CAP URL Shortener
-Plugin URI: http://americanprogress.org
-Description: Provides bit.ly like url shortening of posts automatically and allows users to create their own custom short urls to redirect wherever they want.
-Version: 0.1
-Author: Seth Rubenstein for Center for American Progress
-Author URI: http://sethrubenstein.info
-*/
+ * Plugin Name: CAP URL Shortener
+ * Plugin URI: http://americanprogress.org
+ * Description: Provides bit.ly like url shortening of posts automatically and allows users to create their own custom short urls to redirect wherever they want.
+ * Version: 1.0.0
+ * Author: Seth Rubenstein for Center for American Progress
+ * Author URI: https://github.com/amprog
+ * License: GPL2
+ */
 
 /**
 * Copyright (c) 2014 . All rights reserved.
